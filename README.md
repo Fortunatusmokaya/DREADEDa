@@ -1,10 +1,10 @@
-# tokio
+# Dreaded5
 
 English version of wabot-aq
 
 Don't forget to give it a star  🌟
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/itsajaygaur/tokio-wabot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Fortunatusmokaya/dreaded5)
 
 ## FOR TERMUX/UBUNTU/SSH USER
 
@@ -14,7 +14,7 @@ apt install git -y
 apt install nodejs -y
 apt install ffmpeg -y
 apt install imagemagick -y
-git clone https://github.com/itsajaygaur/tokio-wabot
+git clone https://github.com/Fortunatusmokaya/dreaded5
 cd tokio-wabot
 npm install
 npm update
@@ -160,7 +160,7 @@ conn.logger.level = 'debug'
 
 [![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) | [![Ajay](https://github.com/itsajaygaur.png?size=100)](https://github.com/itsajaygaur/tokio-wabot) 
 ----|----
-[Nurutomo](https://github.com/Nurutomo) | [Ajay](https://github.com/itsajaygaur/tokio-wabot) 
+[Fortunatus mokaya](https://github.com/Fortunatusmokaya) | [Ajay](https://github.com/itsajaygaur/tokio-wabot) 
 Author / Creator | Editor
  
 
