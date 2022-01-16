@@ -158,10 +158,6 @@ conn.logger.level = 'debug'
 
 -------
 
-[![Nurutomo](https://github.com/Nurutomo.png?size=100)](https://github.com/Nurutomo) | [![Ajay and Fortunatus](https://github.com/itsajaygaur.png?size=100)](https://github.com/Fortunatusmokaya/dreaded5) 
-----|----
-[Nurutumo](https://github.com/Fortunatusmokaya) | [Ajay](https://github.com/itsajaygaur/tokio-wabot) 
-Author / Creator | Editor
  
 
 
