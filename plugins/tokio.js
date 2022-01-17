@@ -3,6 +3,6 @@ let handler = async m => m.reply(`
 `.trim()) // repository
 handler.help = ['dreaded']
 handler.tags = ['info']
-handler.command = /^tokio|repo$/i
+handler.command = /^dreaded|repo$/i
 
 module.exports = handler
