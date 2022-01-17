@@ -43,7 +43,7 @@ const defaultMenu = {
 
 〽️ Prefix: *%p*
 📅 Date: *%week, %date*
-💠 Github: github.com/Fortunnesmokaya/dreaded5
+💠 Owner: Fortunne 
 
 👇🏻 Below is my commandlist, do not spam!
 
