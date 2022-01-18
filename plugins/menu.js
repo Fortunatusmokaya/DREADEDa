@@ -2,7 +2,7 @@ let fs = require('fs')
 let path = require('path')
 let fetch = require('node-fetch')
 let levelling = require('../lib/levelling')
-const thumb = fs.readFileSync('./src/thumb.jpg')
+const thumb = fs.readFileSync('./src/IMG-20220118-WA0206.jpg')
 let tags = {
   'main': 'MAIN',
   'info': 'INFO',
@@ -34,7 +34,7 @@ let tags = {
 const defaultMenu = {
   before: `
 
-🙏🏻 Hello %name, This is Dreaded Botto, how can I #help?
+👋🏿 Hello %name, This is Dreaded Botto, how can I #help?
 
 〽️ Prefix: *%p*
 📅 Date: *%week, %date*
