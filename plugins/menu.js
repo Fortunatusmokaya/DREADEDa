@@ -42,7 +42,7 @@ const defaultMenu = {
 
 👇🏻 Below is my commandlist, do not spam!
 
-`.,
+`.trimStart(),
   header: '        *━━❰･%category･❱━━*',
   body: ' 💎 %cmd %islimit %isPremium',
   footer: ' ',
