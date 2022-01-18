@@ -2,7 +2,7 @@ let fs = require('fs')
 let path = require('path')
 let fetch = require('node-fetch')
 let levelling = require('../lib/levelling')
-const thumb = fs.readFileSync('./src/IMG-20220118-WA0206.jpg')
+const thumb = fs.readFileSync('./src/thumb.jpg')
 let tags = {
   'main': 'MAIN',
   'info': 'INFO',
@@ -34,19 +34,19 @@ let tags = {
 const defaultMenu = {
   before: `
 
-👋🏿 Hello %name, This is Dreaded Botto, how can I #help?
+👋🏿 Hello %name, Iam Dreaded bot, how can i #help you?
 
 〽️ Prefix: *%p*
 📅 Date: *%week, %date*
-💠 Owner: Fortunne 
+💠 Owner: Fortunne
 
-👇🏻 Below is my commandlist, do not spam!
+👇🏻 Tap read more for all my commands below, Do not spam!
 
 %readmore`.trimStart(),
   header: '        *━━❰･%category･❱━━*',
   body: ' 💎 %cmd %islimit %isPremium',
   footer: ' ',
-  after: `💎 *Dreaded Botto by Fortunne, have a great day.* 
+  after: `💎 *Dreaded Botto by Fortunne, nice day, cool* 
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
@@ -145,7 +145,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.send2ButtonImg(m.chat, thumb, `💎 I\'m ${conn.user.name}`, text.trim(), 'owner', '-owner', 'rules', '.rules', m)
+    conn.send2ButtonImg(m.chat, thumb,  `💎 I\'m ${conn.user.name}`, text.trim(), 'owner', '-owner', 'rules', '.rules', m)
   } catch (e) {
     conn.reply(m.chat, 'Sorry, the menu is in error', m)
     throw e
