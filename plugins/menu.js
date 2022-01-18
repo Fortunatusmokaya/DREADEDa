@@ -34,12 +34,7 @@ let tags = {
 const defaultMenu = {
   before: `
 
-🙏🏻 Hello %name, Iam Dreaded, how can I help?
-
-🪵 Left: *%limit Limit*
-🎗️ Role: *%role*
-🛕 Level: *%level* 
-☕ Total XP: *%totalexp*
+🙏🏻 Hello %name, This is Dreaded Botto, how can I #help?
 
 〽️ Prefix: *%p*
 📅 Date: *%week, %date*
