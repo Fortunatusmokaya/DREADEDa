@@ -1,8 +1,8 @@
 let handler = async m => m.reply(`
-💎 *Dreaded :* a very light wa bot\n\n🔗 *URL :* https://github.com/Fortunnemokaya/dreaded5
+💎 *Dreaded Bot By Fortunne*\n\n🔗 *Info :* Very easy and fast to deploy termux-heroku WhatsApp bot written in Js
 `.trim()) // repository
 handler.help = ['dreaded']
 handler.tags = ['info']
-handler.command = /^dreaded|repo$/i
+handler.command = /^dreaded|fortunne$/i
 
 module.exports = handler
