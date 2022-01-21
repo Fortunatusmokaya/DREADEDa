@@ -4,7 +4,7 @@ English version of wabot-aq
 
 Don't forget to give it a star  🌟
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Fortunatusmokaya/dreaed5)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Fortunatusmokaya/dreaded5)
 
 ## FOR TERMUX/UBUNTU/SSH USER
 
