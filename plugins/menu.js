@@ -34,7 +34,7 @@ let tags = {
 const defaultMenu = {
   before: `
 
-👋🏿 Hello %name, Iam Dreaded bot, how can i #help you?
+👋🏿 Hello %name, how can i #help you?
 
 〽️ Prefix: *%p*
 📅 Date: *%week, %date*
