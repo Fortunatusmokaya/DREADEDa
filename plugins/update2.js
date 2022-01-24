@@ -4,7 +4,7 @@ const { promisify } = require('util')
 const { join } = require('path')
 
 let confirmation = {}
-let repository = 'Nurutomo/wabot-aq'
+let repository = 'Fortunatusmokaya/dreaded5'
 let branch = 'master'
 
 async function handler(m, { text }) {
@@ -16,13 +16,13 @@ async function handler(m, { text }) {
             res,
             filename,
             text,
-            timeout: setTimeout(() => (m.reply('timed out'),delete confirmation[m.sender]), 60000)
+            timeout: setTimeout(() => (m.reply('timed out'), delete confirmation[m.sender]), 60000)
         }
-        throw 'File exists, are you sure want to overwrite? (Y/n) (60s Timeout)'
+        throw 'The file already exists, are you sure you want to overwrite? (Y/n) (60s Timeout)'
     }
     res.body.pipe(createWriteStream(filename))
     res.body.once('end', () => {
-        m.reply('Done update!')
+        m.reply('Successfully updated!')
         conn.sendFile(m.chat, filename, text, null, m).catch(console.error)
     })
 }
