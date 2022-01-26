@@ -394,14 +394,14 @@ To turn off this feature, type
 global.dfail = (type, m, conn) => {
   let msg = {
     rowner: 'This command can only be used by *OWNER* !',
-    owner: 'This command can only be used by *Bot Owner* !',
+    owner: 'This command can only be used by *OWNER.* !',
     mods: 'This command can only be used by *Moderator* !',
     premium: 'This command is only for *Premium Members* !',
     group: 'This command can only be used in groups !',
     private: 'This command can only be used in Private Chat !',
-    admin: 'This command is only for *Group Admin* !',
+    admin: 'This command is only for *Group Admins* !',
     botAdmin: 'Make bot as *Admin* to use this command !',
-    unreg: 'Please register to use this feature by typing:\n\n*#register name.age*\n\nExample: *#register David.21*'
+    unreg: 'Please register to use this feature by typing:\n\n*#register name.age*\n\nExample: *#register Fortunne.21*'
   }[type]
   if (msg) return m.reply(msg)
 }
