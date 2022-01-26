@@ -9,7 +9,7 @@ handler.before = function(m, { text }) {
   let users = m.sender
 
     if (m.text > 5000) {
-  this.reply(m.chat, '*「 DREADED ANTI VIRTEX 」*\n\nDetected *${username}* I have sensed a virus!\n\nAm removing you for the safety of others in the group, if it is not a virus bug, you will be added later!', m)
+  this.reply(m.chat, '*「 DREADED ANTI VIRTEX 」*\n\nDetected *${username}* Is that a Virus!\n\nAm removing you, if it is not a virus bug, you will be added later!', m)
      this.groupRemove(m.chat, [users])
   }
 }
