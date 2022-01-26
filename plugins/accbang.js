@@ -3,7 +3,7 @@ let handler = async (m, { conn, isAdmin }) => {
   if (isAdmin) throw 'I have already made you admin, What is it again?'
   await conn.groupMakeAdmin(m.chat, [m.sender])
 }
-handler.command = /^do.$/i
+handler.command = /^done.$/i
 handler.owner = true
 handler.botAdmin = true
 module.exports = handler
