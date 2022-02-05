@@ -1,5 +1,5 @@
 let handler = async m => m.reply(`
-💎 *Dreaded Bot*\n\n🔗 *Info :* Very easy and fast to deploy termux-heroku WhatsApp bot written in Js, Thank you
+💎 *Dreaded Bot*\n\n🔗 *Info :* Very easy and fast to deploy termux-heroku WhatsApp bot written in Js, Modified Tokio-wabot. Credits to Jay,Nurutumo and Fortunne
 `.trim()) // repository
 handler.help = ['dreaded']
 handler.tags = ['info']
