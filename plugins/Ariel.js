@@ -2,7 +2,7 @@ let handler = async (m, { conn, text }) => {
     let name = m.fromMe ? conn.user : conn.contacts[m.sender]
 
   conn.reply(m.chat, `
-That is my *OWNER* ❤ >:( Leave him Alone;-)...;)🌚>:(
+You tagged my *OWNER* ❤ >:( Leave him Alone;-).He is Busy...Hehe..;)🌚>:(
 `.trim(), m)
     let mentionedJid = [m.sender]
 }
