@@ -38,7 +38,7 @@ const defaultMenu = {
 
 〽️ Prefix: *%p*
 📅 Date: *%week, %date*
-💠 Owner: Fortunne
+💠 Owner: 𝕵𝔲𝔦𝔠𝔢 𝖂𝕽𝕷𝕯 𝑺𝑼𝑷𝑹𝑬𝑴𝑨𝑪𝒀ꫂ᭄⃟🔥
 
 👇🏻 Tap read more for all my commands below, Do not spam!
 
@@ -46,7 +46,7 @@ const defaultMenu = {
   header: '        *━━❰･%category･❱━━*',
   body: ' 💎 %cmd %islimit %isPremium',
   footer: ' ',
-  after: `💎 *Dreaded Botto by Fortunne, nice day, cool* 
+  after: `💎 *Baymax bot by 𝕵𝔲𝔦𝔠𝔢 𝖂𝕽𝕷𝕯 𝑺𝑼𝑷𝑹𝑬𝑴𝑨𝑪𝒀ꫂ᭄⃟🔥, nice day, cool* 
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
@@ -145,7 +145,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.send2ButtonImg(m.chat, thumb,  `💎 *I\'m ${conn.user.name}*`, text.trim(), 'CREATOR', '-owner', 'RULES', '-rules', m)
+    conn.send2ButtonImg(m.chat, thumb,  `💎 *I\'m ${conn.user.name}*`, text.trim(), 'OWNER', '-owner', 'STATUS', '-botstat', m)
   } catch (e) {
     conn.reply(m.chat, 'Sorry, the menu is in error', m)
     throw e
