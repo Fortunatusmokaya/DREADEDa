@@ -2,7 +2,7 @@ let fs = require('fs')
 let path = require('path')
 let fetch = require('node-fetch')
 let levelling = require('../lib/levelling')
-const thumb = fs.readFileSync('./src/IMG-20220118-WA0206.png')
+const thumb = fs.readFileSync('./src/IMG-20220509-WA0023.jpg')
 let tags = {
   'main': 'MAIN',
   'info': 'INFO',
