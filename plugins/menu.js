@@ -44,9 +44,9 @@ const defaultMenu = {
 
 %readmore`.trimStart(),
   header: '        *━━❰･%category･❱━━*',
-  body: ' 💎 %cmd %islimit %isPremium',
+  body: ' 📌 %cmd %islimit %isPremium',
   footer: ' ',
-  after: `💎 *Baymax bot by 𝕵𝔲𝔦𝔠𝔢 𝖂𝕽𝕷𝕯 𝑺𝑼𝑷𝑹𝑬𝑴𝑨𝑪𝒀ꫂ᭄⃟🔥, nice day, cool* 
+  after: `📌 *Baymax bot by 𝕵𝔲𝔦𝔠𝔢 𝖂𝕽𝕷𝕯 𝑺𝑼𝑷𝑹𝑬𝑴𝑨𝑪𝒀ꫂ᭄⃟🔥, nice day, cool* 
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
@@ -145,7 +145,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.send2ButtonImg(m.chat, thumb,  `💎 *I\'m ${conn.user.name}*`, text.trim(), 'OWNER', '-owner', 'STATUS', '-botstat', m)
+    conn.send2ButtonImg(m.chat, thumb,  `📌 *I\'m ${conn.user.name}*`, text.trim(), 'OWNER', '-owner', 'STATUS', '-botstat', m)
   } catch (e) {
     conn.reply(m.chat, 'Sorry, the menu is in error', m)
     throw e
